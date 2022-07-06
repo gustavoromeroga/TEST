@@ -21,7 +21,7 @@ public class BlackJackGame extends Application {
     final int NUMCARDS = 52;
     final int CARDSPERSUIT = 13;
 
-    final String FILE_PREFIX = "D:/COP7/cop2805cmod7gpa-gustavoromeroga/images/52cards";
+    final String FILE_PREFIX = "images/52cards/";
 
     private final int SPACING = 20;
     private final String TITLE = "Blackjack";
@@ -181,10 +181,22 @@ public class BlackJackGame extends Application {
                 calcFaceValue = 3;
                 break;
             case 4: case 17: case 30: case 43: // Aces
-                calcFaceValue = 41;
+                calcFaceValue = 4;
                 break;
             case 5: case 18: case 31: case 44: // Aces
                 calcFaceValue = 5;
+                break;
+            case 6: case 19: case 32: case 45: // Aces
+                calcFaceValue = 6;
+                break;
+            case 7: case 20: case 33: case 46: // Aces
+                calcFaceValue = 7;
+                break;
+            case 8: case 21: case 34: case 47: // Aces
+                calcFaceValue = 8;
+                break;
+            case 9: case 22: case 35: case 48: // Aces
+                calcFaceValue = 9;
                 break;
         }
         return calcFaceValue;
