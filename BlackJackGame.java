@@ -174,28 +174,28 @@ public class BlackJackGame extends Application {
             case 1: case 14: case 27: case 40: // Aces
                 calcFaceValue = 11;
                 break;
-            case 2: case 15: case 28: case 41: // Aces
+            case 2: case 15: case 28: case 41:
                 calcFaceValue = 2;
                 break;
-            case 3: case 16: case 29: case 42: // Aces
+            case 3: case 16: case 29: case 42: 
                 calcFaceValue = 3;
                 break;
-            case 4: case 17: case 30: case 43: // Aces
+            case 4: case 17: case 30: case 43:
                 calcFaceValue = 4;
                 break;
-            case 5: case 18: case 31: case 44: // Aces
+            case 5: case 18: case 31: case 44:
                 calcFaceValue = 5;
                 break;
-            case 6: case 19: case 32: case 45: // Aces
+            case 6: case 19: case 32: case 45:
                 calcFaceValue = 6;
                 break;
-            case 7: case 20: case 33: case 46: // Aces
+            case 7: case 20: case 33: case 46:
                 calcFaceValue = 7;
                 break;
-            case 8: case 21: case 34: case 47: // Aces
+            case 8: case 21: case 34: case 47:
                 calcFaceValue = 8;
                 break;
-            case 9: case 22: case 35: case 48: // Aces
+            case 9: case 22: case 35: case 48:
                 calcFaceValue = 9;
                 break;
         }
